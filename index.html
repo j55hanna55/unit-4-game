@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Crystals Collector Game</title>
+
+	<link rel="stylesheet" type="text/css" href="/Users/jacob/Desktop/projects/unit-4-game/assets/css/style.css">
+
+	<link rel="stylesheet" type="text/css" href="/Users/jacob/Desktop/projects/unit-4-game/assets/javascript/game.js">
+
+</head>
+<body background="https://docs.oracle.com/javafx/2/get_started/background.jpg" >
+
+
+<!-- <div id="fix"> -->
+
+<div id="A">
+ <p id="logo">CrystalsCollector!</p>
+</div>
+
+
+<div id="sty2">
+	<ul>
+		<li>You will given a random number at the start of the game.</li>
+
+		<Li>There are four crystal below. By clicking on a crystal you will add a specific amount of points to your total score.</Li>
+
+		<li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+
+		<li>The value of each crystal is hidden from you antil you click on it.</li>
+
+		<li>Each time when the game starts, the game will change the values of each crystal.</li>
+	</ul>
+</div>
+
+
+
+<div id="sty">
+
+	<h1 id="rn" style="background-color: blue;
+	padding: 40px;
+	width: 50px; 
+	"></h1>
+
+  <p>Wins: <span id="wins"></span></p>
+  <p>Losses: <span id="losses"></span></p>
+</div>   
+   
+
+
+   
+
+
+	
+		<img src="http://uploads.webflow.com/5a8cfc09aee91400019461b0/5a8cffecaee91400019463c5_Asset%201%402x.png" id="13" height="100px" 
+  width="100px">
+
+		<img src="https://philipstubbs13.github.io/week-4-game/assets/images/purple-crystal.png" id="10" height="100px" 
+  width="100px">
+
+		<img src="https://philipstubbs13.github.io/week-4-game/assets/images/pink-crystal.png" id="7" height="100px" 
+  width="100px">
+
+		<img src="http://files.softicons.com/download/object-icons/desktop-crystal-icons-by-aha-soft/png/256x256/Gem.png" id="1" height="100px" 
+  width="100px">	
+
+
+  <div>
+	<h2 style="background-color: blue; 
+	padding: 40px; 
+	width: 50px;"><span id="total"></span></h2>
+   </div>
+    
+	
+
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	
+
+<!-- 
+<script type="text/javascript">
+
+	var wins = 0;
+	var losses = 0;
+	var total = 0;
+	
+
+	$('#wins').text(wins);
+	$('#losses').text(losses);
+	$('#total').text(total);
+	$('#rn').text(rn);
+	
+
+document.getElementById("rn").innerHTML =
+Math.floor(Math.random() * 101) + 19;
+
+
+$("#13").click(function(){
+	total = total + 13;
+    $('#total').text(total);
+});
+
+
+
+$("#10").click(function(){
+  total = total + 10;
+    $('#total').text(total);
+});
+
+
+$("#7").click(function(){
+  total = total + 7;
+    $('#total').text(total);
+});
+
+
+$("#1").click(function(){
+  total = total + 1;
+    $('#total').text(total);
+});
+
+
+
+
+var rn = $('#rn').text();
+
+if (total > rn){
+			losses++;
+			$('#losses').text(losses);
+		}
+
+
+
+
+
+
+
+</script> -->
+
+	<!-- <script type="text/javascript">
+		$('img').on("click", function{
+			alert("Hello")
+		})
+
+		
+		
+		 
+			var count = $(this).attr('data-count');
+			count = parseInt(count);
+			count++;
+			$(this).attr('data-count', count);
+
+
+		$("#rn").innertext = Math.random();
+	</script> -->
+
+	<!-- </div> -->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

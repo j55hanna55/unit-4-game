@@ -1,0 +1,87 @@
+/*#A{
+  float: left;
+}*/
+
+
+#logo {
+  /*float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;*/
+ background-color: green;
+ float-left:20px;
+ padding: 20px;
+ margin-right: 950px;
+ min-width: 250px;
+ max-width: 250px;
+ 
+ /*margin: 10px;*/
+ clear: both;
+ font-family: Georgia, Times, "Times New Roman", serif;
+ font-size: 30px;
+
+}
+
+
+#fix{
+  max-width: 100px; 
+  /*min-width: 100px;*/
+}
+
+#image {
+  height: 50px; 
+  width: 50px;
+ 
+}
+
+
+
+#sty{
+  background-color: red;
+   width: 10%;
+  max-width: 960px;
+
+  margin: 0 auto;
+  clear: both;
+}
+
+#sty2{
+  background-color: red;
+  min-width: 350px;
+  max-width: 350px;
+   /*width: 100%;*/
+ float-left:20px;
+ padding: 20px;
+  margin-right: 500px;
+  /*margin: 10px;*/
+  clear: both;
+}
+/*.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  margin: 0 0 30px;
+  overflow: auto;
+  color: #ffffff;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+}*/
