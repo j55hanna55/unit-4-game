@@ -46,19 +46,23 @@
  
 }
 
-
+#rn {
+  background-color: blue;
+  padding: 40px;
+  width: 50px;
+}
 
 #sty{
-  background-color: red;
+  background-color: #e8a942;
    width: 10%;
   max-width: 960px;
 
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   clear: both;
 }
 
 #sty2{
-  background-color: red;
+  background-color: #807b7b;
   min-width: 350px;
   max-width: 350px;
    /*width: 100%;*/
@@ -68,6 +72,19 @@
   /*margin: 10px;*/
   clear: both;
 }
+
+
+#total{
+  background-color: blue; 
+  padding: 50px; 
+  width: 40px;
+}
+
+
+h3 {
+  margin-bottom: 80px;
+}
+
 /*.container {
   width: 100%;
   max-width: 960px;

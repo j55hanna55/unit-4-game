@@ -4,9 +4,9 @@
 
 	<title>Crystals Collector Game</title>
 
-	<link rel="stylesheet" type="text/css" href="/Users/jacob/Desktop/projects/unit-4-game/assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
-	<link rel="stylesheet" type="text/css" href="/Users/jacob/Desktop/projects/unit-4-game/assets/javascript/game.js">
+	<link rel="stylesheet" type="text/css" href="./assets/javascript/game.js">
 
 </head>
 <body background="https://docs.oracle.com/javafx/2/get_started/background.jpg" >
@@ -35,13 +35,12 @@
 
 
 
+
+
+	<h1 id="rn"></h1>
+
+
 <div id="sty">
-
-	<h1 id="rn" style="background-color: blue;
-	padding: 40px;
-	width: 50px; 
-	"></h1>
-
   <p>Wins: <span id="wins"></span></p>
   <p>Losses: <span id="losses"></span></p>
 </div>   
@@ -52,33 +51,45 @@
 
 
 	
-		<img src="http://uploads.webflow.com/5a8cfc09aee91400019461b0/5a8cffecaee91400019463c5_Asset%201%402x.png" id="13" height="100px" 
+		<!-- <img src="http://uploads.webflow.com/5a8cfc09aee91400019461b0/5a8cffecaee91400019463c5_Asset%201%402x.png" id="13" height="90px" 
+  width="100px"> -->
+
+  <img src="assets/images/blue.png" id="13" height="100px" 
   width="100px">
 
-		<img src="https://philipstubbs13.github.io/week-4-game/assets/images/purple-crystal.png" id="10" height="100px" 
+  <img src="assets/images/purple.png" id="10" height="100px" 
+  width="100px">
+
+  <img src="assets/images/pink.png" id="7" height="100px" 
+  width="100px">
+
+  <img src="assets/images/Gem.png" id="1" height="120px" 
+  width="100px">
+
+		<!-- <img src="https://philipstubbs13.github.io/week-4-game/assets/images/purple-crystal.png" id="10" height="100px" 
   width="100px">
 
 		<img src="https://philipstubbs13.github.io/week-4-game/assets/images/pink-crystal.png" id="7" height="100px" 
   width="100px">
 
 		<img src="http://files.softicons.com/download/object-icons/desktop-crystal-icons-by-aha-soft/png/256x256/Gem.png" id="1" height="100px" 
-  width="100px">	
+  width="100px"> -->	
 
 
   <div>
-	<h2 style="background-color: blue; 
-	padding: 40px; 
-	width: 50px;"><span id="total"></span></h2>
+  	
+  	<h3>Your total is:</h3>
+	<h2><span id="total"></span></h2>
    </div>
     
 	
 
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-	
 
+<script src="/Users/jacob/Desktop/projects/unit-4-game/assets/javascript/game.js" type="text/javascript"></script>
 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
 	var wins = 0;
 	var losses = 0;
@@ -136,7 +147,7 @@ if (total > rn){
 
 
 </script>
-
+ -->
 	<!-- <script type="text/javascript">
 		$('img').on("click", function{
 			alert("Hello")
